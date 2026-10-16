@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 - Student Record Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Student Record Manager</h1>
+
+        <p>
+            Practical: JavaScript Objects, Arrays and DOM
+        </p>
+
+        <h2>Add Student</h2>
+
+        <form id="studentForm">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="rollNo">Roll Number:</label>
+            <input type="number" id="rollNo" min="1" step="1" required>
+
+            <label for="marks">Marks (0-100):</label>
+            <input type="number" id="marks" min="0" max="100"
+                   step="0.01" required>
+
+            <button type="submit">Add Student</button>
+        </form>
+
+        <h2>Student Records</h2>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll No.</th>
+                        <th>Marks</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody id="studentTable">
+                    <!-- JavaScript inserts records here -->
+                </tbody>
+            </table>
+        </div>
+
+        <h2 id="summary">Average Marks: 0</h2>
+        <p id="message" role="status" aria-live="polite"></p>
+    </div>
+</body>
+</html>
