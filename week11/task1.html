@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Functions and Arrays</title>
+</head>
+<body>
+
+    <h2>PHP Functions and Arrays</h2>
+
+    <?php
+
+        // Creating an Array
+        $fruits = array("Apple", "Mango", "Orange");
+
+        echo "<h3>Fruits List</h3>";
+
+        foreach ($fruits as $fruit) {
+            echo $fruit . "<br>";
+        }
+
+        // Creating a Function
+        function addition($a, $b) {
+            return $a + $b;
+        }
+
+        echo "<h3>Function Example</h3>";
+
+        echo "Addition: " . addition(10, 20);
+
+    ?>
+
+</body>
+</html>
