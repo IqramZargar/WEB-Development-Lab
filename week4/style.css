@@ -1,0 +1,99 @@
+
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    margin: 30px;
+}
+
+/* Heading Styling */
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+/* Unordered List Styling */
+
+.subjects {
+    background-color: lightblue;
+    padding: 20px 40px;
+    width: 250px;
+    list-style-type: square;
+}
+
+.subjects li {
+    padding: 5px;
+}
+
+/* Ordered List Styling */
+
+.steps {
+    background-color: lightgreen;
+    padding: 20px 40px;
+    width: 250px;
+    list-style-type: decimal;
+}
+
+.steps li {
+    margin: 8px;
+}
+
+/* Link Styling */
+
+.links a {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hover Effect */
+
+.links a:hover {
+    background-color: green;
+    text-decoration: underline;
+}
+
+/* Table Styling */
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Table Cells */
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table Heading */
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+/* Alternate Row Color */
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* Table Hover Effect */
+
+tr:hover {
+    background-color: lightgreen;
+}

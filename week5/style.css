@@ -1,0 +1,77 @@
+
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Static Position */
+
+.static-box {
+    position: static;
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid blue;
+    margin-bottom: 20px;
+}
+
+/* Relative Position */
+
+.relative-box {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: lightgreen;
+    padding: 20px;
+    border: 2px solid green;
+    margin-bottom: 30px;
+}
+
+/* Parent Container */
+
+.parent-box {
+    position: relative;
+    height: 180px;
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* Absolute Position */
+
+.absolute-box {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: orange;
+    padding: 15px;
+    border: 2px solid red;
+}
+
+/* Fixed Position */
+
+.fixed-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Extra Content */
+
+.extra-content {
+    height: 600px;
+    background-color: lightpink;
+    margin-top: 30px;
+    padding: 20px;
+}

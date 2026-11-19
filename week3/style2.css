@@ -1,0 +1,14 @@
+
+/* External CSS */
+
+h3 {
+    color: darkorange;
+    text-align: left;
+}
+
+.external {
+    color: darkred;
+    background-color: lightgray;
+    padding: 15px;
+    border: 2px solid black;
+}
